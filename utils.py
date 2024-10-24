@@ -4,7 +4,7 @@ import astropy.units as u
 import pandas as pd
 
 filters = {
-    'johnson.u': {'wavelength': np.array([3000, 3500, 4000]) * u.AA, 'transmission': np.array([0.0, 1.0, 0.0]), 'zero_point': 1810 * u.Jy},
+    'johnson.u': {'wavelength': np.array([3000, 3500, 4000]) * u.AA, 'transmission': np.array([0.0, 1.0, 0.0]), 'zero_point': 1500 * u.Jy},
     'johnson.b': {'wavelength': np.array([3500, 4500, 5500]) * u.AA, 'transmission': np.array([0.0, 1.0, 0.0]), 'zero_point': 4260 * u.Jy},
     'johnson.v': {'wavelength': np.array([4500, 5500, 6500]) * u.AA, 'transmission': np.array([0.0, 1.0, 0.0]), 'zero_point': 3640 * u.Jy},
     'cousins.r': {'wavelength': np.array([5500, 6500, 7500]) * u.AA, 'transmission': np.array([0.0, 1.0, 0.0]), 'zero_point': 3080 * u.Jy},
